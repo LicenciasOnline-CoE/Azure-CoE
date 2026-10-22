@@ -1,0 +1,68 @@
+# Operating system and editor-local files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+*.code-workspace
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Local MCP configuration and Azure authentication state
+.mcp.json
+.azure/
+.azd/
+
+# Local environment configuration; sanitized examples remain versionable
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.local.*
+local.settings.json
+
+# Deployment parameters: only explicitly named examples belong in Git
+**/parameters/*.bicepparam
+**/parameters/*.json
+*.parameters.json
+!**/parameters/*.example.bicepparam
+!**/parameters/*.sample.bicepparam
+!**/parameters/*.template.bicepparam
+!**/parameters/*.example.json
+!**/parameters/*.sample.json
+!**/parameters/*.template.json
+!*.example.parameters.json
+!*.sample.parameters.json
+!*.template.parameters.json
+
+# Private keys, certificates and database backups
+*.key
+*.pem
+*.pfx
+*.p12
+*.dump
+*.backup
+*.bak
+*.sql.gz
+
+# Dependencies, build outputs, caches and test results
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+bin/
+obj/
+dist/
+build/
+coverage/
+TestResults/
+*.log
+*.tsbuildinfo
+*.generated.json
