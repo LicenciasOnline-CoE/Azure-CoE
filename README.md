@@ -29,7 +29,7 @@ La estructura indicada es el objetivo del repositorio; la disponibilidad de cada
 
 ## Aceleradores
 
-El primer acelerador cubre **Azure App Service + PostgreSQL Flexible Server**. Consulta el [catálogo de aceleradores](accelerators/README.md) y su [documentación inicial](accelerators/app-service-postgresql/README.md). Actualmente está en etapa de diseño; todavía no incluye infraestructura ni pipelines ejecutables. Cada acelerador deberá incluir infraestructura, parámetros de ejemplo, pipeline invocable, aplicación de ejemplo y documentación para desplegar, validar, operar y limpiar los recursos.
+El [catálogo de aceleradores](accelerators/README.md) incluye **[Azure App Service + PostgreSQL Flexible Server](accelerators/app-service-postgresql/README.md)** y **[Azure VM single-server](accelerators/virtual-machine-single-server/README.md)**. Ambos están en etapa de diseño; todavía no incluyen infraestructura ni pipelines ejecutables. El caso de máquinas virtuales incorpora guías para dimensionar Windows Server y Linux, proteger distintos tipos de aplicaciones y habilitar y probar respaldos. Cada acelerador deberá incluir infraestructura, parámetros de ejemplo, pipeline invocable, aplicación de ejemplo y documentación para desplegar, validar, operar y limpiar los recursos.
 
 Para usar un acelerador, sigue su documentación y sustituye únicamente los placeholders en los parámetros de ejemplo. No agregues valores reales de clientes ni credenciales al repositorio.
 
